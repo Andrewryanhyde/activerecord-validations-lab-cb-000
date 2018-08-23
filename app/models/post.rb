@@ -18,3 +18,4 @@ class Post < ActiveRecord::Base
       errors.add(:title, "must be clickbait")
     end
   end
+end
