@@ -17,4 +17,5 @@ class Post < ActiveRecord::Base
     if CLICKBAIT.none? {|pat| pat.match title}
       errors.add(:title, "must be clickbait")
     end
+  end
 end
